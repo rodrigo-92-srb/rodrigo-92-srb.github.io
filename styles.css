@@ -31,6 +31,15 @@ body{
   transition: .2s;
 }
 
+h2.titulo{
+  color: #fff;
+  font-size: 38px;
+  text-align: center;
+}
+
+h2.titulo span{
+  color: #0066ff;
+}
 /*Estilo do cabeçalho*/
 header{
   padding: 40px 4%;
@@ -109,3 +118,35 @@ section.topo-do-site .flex{
   }
 }
 
+/* Estilo da seção projetos */
+
+section.projetos{
+  padding: 100px 4%;
+}
+
+section.projetos .flex{
+  gap: 60px;
+}
+
+.projetos .projetos-box{
+  color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 45px;
+  transition: .2s;
+}
+
+.projetos .projetos-box:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #ffffff93;
+}
+
+.projetos .projetos-box i{
+  color: #0066ff;
+  font-size: 70px;
+}
+
+.projetos .projetos-box h3{
+  font-size: 28px;
+  margin: 15px 0;
+}
