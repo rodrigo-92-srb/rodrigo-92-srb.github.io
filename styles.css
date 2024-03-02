@@ -40,6 +40,12 @@ h2.titulo{
 h2.titulo span{
   color: #0066ff;
 }
+
+button:hover{
+  box-shadow: 0px 0px 8px #0051ff;
+  transform: scale(1.1);
+}
+
 /*Estilo do cabeçalho*/
 header{
   padding: 40px 4%;
@@ -150,3 +156,51 @@ section.projetos .flex{
   font-size: 28px;
   margin: 15px 0;
 }
+
+/*Estilo da seção sobre*/
+
+section.sobre{
+  padding: 100px 4%;
+}
+
+.img-perfil{
+  border-radius: 50%;
+}
+
+section.sobre .flex{
+  align-items: center;
+  gap: 60px;
+}
+
+.sobre .txt-sobre{
+  color: #fff;
+}
+
+.sobre .txt-sobre h2{
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.sobre .txt-sobre span{
+  color: #0066ff;
+  display: block;
+}
+
+.sobre .txt-sobre p{
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: #0066ff;
+  font-size: 22px;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: .2s;
+}
+
