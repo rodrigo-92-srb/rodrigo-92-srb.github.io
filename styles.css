@@ -192,7 +192,7 @@ section.sobre .flex{
   text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button{
+.btn-social button{
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -204,3 +204,32 @@ section.sobre .flex{
   transition: .2s;
 }
 
+/*Estilo do rodapé*/
+
+footer{
+  padding: 20px 4%;
+  box-shadow: 0 0 20px #ffffff93;
+}
+
+footer .flex{
+  justify-content: space-between;
+}
+
+footer .line-footer{
+  padding: 20px 0;
+  
+}
+
+.borda{
+  border-top: 2px solid #0066ff;
+}
+
+footer .line-footer p i{
+  color: #0066ff;
+  font-size: 30px;
+}
+
+footer .line-footer p a{
+  color: #fff;
+  padding-left: 15px;
+}
