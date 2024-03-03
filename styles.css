@@ -223,6 +223,7 @@ footer .line-footer {
 
 .borda {
   border-top: 2px solid #0066ff;
+  text-align: center;
 }
 
 footer .line-footer p i {
@@ -318,10 +319,6 @@ footer .line-footer p a {
   /* Footer */
   footer .logo-footer{
     margin: 0 auto;
-  }
-
-  .borda{
-    text-align: center;
   }
 
 }
